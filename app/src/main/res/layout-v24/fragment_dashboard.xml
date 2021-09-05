@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00352C"
+    android:drawingCacheQuality="high"
+    tools:context=".ui.dashboard.DashboardFragment">
+
+    <ScrollView
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+        <TableLayout
+            android:id="@+id/tableLayout"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="1dp"
+            android:isScrollContainer="true"
+            android:stretchColumns="*"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.571"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.216">
+
+            <TableRow
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/imageButton1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:drawable/divider_horizontal_dark"
+                    android:foreground="@android:drawable/divider_horizontal_dark"
+                    android:scaleType="fitCenter"
+                    android:scrollbarThumbHorizontal="@android:drawable/divider_horizontal_dark"
+                    android:scrollbarThumbVertical="@android:drawable/divider_horizontal_dark"
+                    android:src="@drawable/p0"
+                    tools:src="@drawable/p0" />
+
+                <NumberPicker
+                    android:id="@+id/numberPicker1"
+                    style="@android:style/Widget.Material.Light.NumberPicker"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:backgroundTintMode="multiply"
+                    android:drawingCacheQuality="high"
+                    android:foregroundGravity="center_horizontal"
+                    android:theme="@style/AppTheme.Picker"
+                    android:visibility="visible"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+                <ImageButton
+                    android:id="@+id/imageButton2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:drawable/divider_horizontal_dark"
+                    android:foreground="@android:drawable/divider_horizontal_dark"
+                    android:scaleType="fitCenter"
+                    android:scrollbarThumbHorizontal="@android:drawable/divider_horizontal_dark"
+                    android:scrollbarThumbVertical="@android:drawable/divider_horizontal_dark"
+                    android:src="@drawable/m1"
+                    tools:src="@drawable/m1" />
+
+                <NumberPicker
+                    android:id="@+id/numberPicker2"
+                    android:layout_width="0dp"
+                    android:layout_height="46dp"
+                    android:layout_margin="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:drawingCacheQuality="high"
+                    android:theme="@style/AppTheme.Picker"
+                    android:visibility="visible"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/imageButton3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:drawable/divider_horizontal_dark"
+                    android:foreground="@android:drawable/divider_horizontal_dark"
+                    android:scaleType="fitCenter"
+                    android:scrollbarThumbHorizontal="@android:drawable/divider_horizontal_dark"
+                    android:scrollbarThumbVertical="@android:drawable/divider_horizontal_dark"
+                    android:src="@drawable/m2"
+                    tools:src="@drawable/m2" />
+
+                <NumberPicker
+                    android:id="@+id/numberPicker3"
+                    android:layout_width="0dp"
+                    android:layout_height="46dp"
+                    android:layout_margin="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:drawingCacheQuality="high"
+                    android:theme="@style/AppTheme.Picker"
+                    android:visibility="visible"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+                <ImageButton
+                    android:id="@+id/imageButton4"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:drawable/divider_horizontal_dark"
+                    android:foreground="@android:drawable/divider_horizontal_dark"
+                    android:scaleType="fitCenter"
+                    android:scrollbarThumbHorizontal="@android:drawable/divider_horizontal_dark"
+                    android:scrollbarThumbVertical="@android:drawable/divider_horizontal_dark"
+                    android:src="@drawable/m3"
+                    tools:src="@drawable/m3" />
+
+                <NumberPicker
+                    android:id="@+id/numberPicker4"
+                    android:layout_width="0dp"
+                    android:layout_height="46dp"
+                    android:layout_margin="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:drawingCacheQuality="high"
+                    android:theme="@style/AppTheme.Picker"
+                    android:visibility="visible"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/imageButton5"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:drawable/divider_horizontal_dark"
+                    android:foreground="@android:drawable/divider_horizontal_dark"
+                    android:scaleType="fitCenter"
+                    android:scrollbarThumbHorizontal="@android:drawable/divider_horizontal_dark"
+                    android:scrollbarThumbVertical="@android:drawable/divider_horizontal_dark"
+                    android:src="@drawable/m4"
+                    tools:src="@drawable/m4" />
+
+                <NumberPicker
+                    android:id="@+id/numberPicker5"
+                    android:layout_width="0dp"
+                    android:layout_height="46dp"
+                    android:layout_margin="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:drawingCacheQuality="high"
+                    android:theme="@style/AppTheme.Picker"
+                    android:visibility="visible"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+                <ImageButton
+                    android:id="@+id/imageButton6"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:drawable/divider_horizontal_dark"
+                    android:foreground="@android:drawable/divider_horizontal_dark"
+                    android:scaleType="fitCenter"
+                    android:scrollbarThumbHorizontal="@android:drawable/divider_horizontal_dark"
+                    android:scrollbarThumbVertical="@android:drawable/divider_horizontal_dark"
+                    android:src="@drawable/m5"
+                    tools:src="@drawable/m5" />
+
+                <NumberPicker
+                    android:id="@+id/numberPicker6"
+                    android:layout_width="0dp"
+                    android:layout_height="46dp"
+                    android:layout_margin="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:drawingCacheQuality="high"
+                    android:theme="@style/AppTheme.Picker"
+                    android:visibility="visible"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/imageButton7"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:drawable/divider_horizontal_dark"
+                    android:foreground="@android:drawable/divider_horizontal_dark"
+                    android:scaleType="fitCenter"
+                    android:scrollbarThumbHorizontal="@android:drawable/divider_horizontal_dark"
+                    android:scrollbarThumbVertical="@android:drawable/divider_horizontal_dark"
+                    android:src="@drawable/m6"
+                    tools:src="@drawable/m6" />
+
+                <NumberPicker
+                    android:id="@+id/numberPicker7"
+                    android:layout_width="0dp"
+                    android:layout_height="46dp"
+                    android:layout_margin="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:drawingCacheQuality="high"
+                    android:theme="@style/AppTheme.Picker"
+                    android:visibility="visible"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+                <ImageButton
+                    android:id="@+id/imageButton8"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:drawable/divider_horizontal_dark"
+                    android:foreground="@android:drawable/divider_horizontal_dark"
+                    android:scaleType="fitCenter"
+                    android:scrollbarThumbHorizontal="@android:drawable/divider_horizontal_dark"
+                    android:scrollbarThumbVertical="@android:drawable/divider_horizontal_dark"
+                    android:src="@drawable/m7"
+                    tools:src="@drawable/m7" />
+
+                <NumberPicker
+                    android:id="@+id/numberPicker8"
+                    android:layout_width="0dp"
+                    android:layout_height="46dp"
+                    android:layout_margin="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:drawingCacheQuality="high"
+                    android:theme="@style/AppTheme.Picker"
+                    android:visibility="visible"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/imageButton9"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:drawable/divider_horizontal_dark"
+                    android:foreground="@android:drawable/divider_horizontal_dark"
+                    android:scaleType="fitCenter"
+                    android:scrollbarThumbHorizontal="@android:drawable/divider_horizontal_dark"
+                    android:scrollbarThumbVertical="@android:drawable/divider_horizontal_dark"
+                    android:src="@drawable/m8"
+                    tools:src="@drawable/m8" />
+
+                <NumberPicker
+                    android:id="@+id/numberPicker9"
+                    android:layout_width="0dp"
+                    android:layout_height="46dp"
+                    android:layout_margin="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:drawingCacheQuality="high"
+                    android:theme="@style/AppTheme.Picker"
+                    android:visibility="visible"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+                <ImageButton
+                    android:id="@+id/imageButton10"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:drawable/divider_horizontal_dark"
+                    android:foreground="@android:drawable/divider_horizontal_dark"
+                    android:scaleType="fitCenter"
+                    android:scrollbarThumbHorizontal="@android:drawable/divider_horizontal_dark"
+                    android:scrollbarThumbVertical="@android:drawable/divider_horizontal_dark"
+                    android:src="@drawable/face"
+                    tools:src="@drawable/face" />
+
+                <NumberPicker
+                    android:id="@+id/numberPicker10"
+                    android:layout_width="0dp"
+                    android:layout_height="46dp"
+                    android:layout_margin="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:drawingCacheQuality="high"
+                    android:theme="@style/AppTheme.Picker"
+                    android:visibility="visible"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/imageButton11"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:drawable/divider_horizontal_dark"
+                    android:foreground="@android:drawable/divider_horizontal_dark"
+                    android:scaleType="fitCenter"
+                    android:scrollbarThumbHorizontal="@android:drawable/divider_horizontal_dark"
+                    android:scrollbarThumbVertical="@android:drawable/divider_horizontal_dark"
+                    android:src="@drawable/sprute"
+                    tools:src="@drawable/sprute" />
+
+                <NumberPicker
+                    android:id="@+id/numberPicker11"
+                    android:layout_width="0dp"
+                    android:layout_height="46dp"
+                    android:layout_margin="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:drawingCacheQuality="high"
+                    android:theme="@style/AppTheme.Picker"
+                    android:visibility="visible"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+                <ImageButton
+                    android:id="@+id/imageButton12"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:drawable/divider_horizontal_dark"
+                    android:foreground="@android:drawable/divider_horizontal_dark"
+                    android:scaleType="fitCenter"
+                    android:scrollbarThumbHorizontal="@android:drawable/divider_horizontal_dark"
+                    android:scrollbarThumbVertical="@android:drawable/divider_horizontal_dark"
+                    android:src="@drawable/sheld"
+                    tools:src="@drawable/sheld" />
+
+                <NumberPicker
+                    android:id="@+id/numberPicker12"
+                    android:layout_width="0dp"
+                    android:layout_height="46dp"
+                    android:layout_margin="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:drawingCacheQuality="high"
+                    android:theme="@style/AppTheme.Picker"
+                    android:visibility="visible"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/imageButton13"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:drawable/divider_horizontal_dark"
+                    android:foreground="@android:drawable/divider_horizontal_dark"
+                    android:scaleType="fitCenter"
+                    android:scrollbarThumbHorizontal="@android:drawable/divider_horizontal_dark"
+                    android:scrollbarThumbVertical="@android:drawable/divider_horizontal_dark"
+                    android:src="@drawable/skull"
+                    tools:src="@drawable/skull" />
+
+                <NumberPicker
+                    android:id="@+id/numberPicker13"
+                    android:layout_width="0dp"
+                    android:layout_height="46dp"
+                    android:layout_margin="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:autoSizeMaxTextSize="100sp"
+                    android:autoSizeMinTextSize="12sp"
+                    android:autoSizeStepGranularity="2sp"
+
+                    android:autoSizeTextType="uniform"
+                    android:drawingCacheQuality="high"
+                    android:textAlignment="center"
+                    android:theme="@style/AppTheme.Picker"
+
+                    android:visibility="visible"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+                <ImageButton
+                    android:id="@+id/imageButton14"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:drawable/divider_horizontal_dark"
+                    android:foreground="@android:drawable/divider_horizontal_dark"
+                    android:scaleType="fitCenter"
+                    android:scrollbarThumbHorizontal="@android:drawable/divider_horizontal_dark"
+                    android:scrollbarThumbVertical="@android:drawable/divider_horizontal_dark"
+                    android:src="@drawable/red_fail"
+                    tools:src="@drawable/red_fail" />
+
+                <NumberPicker
+                    android:id="@+id/numberPicker14"
+                    android:layout_width="0dp"
+                    android:layout_height="46dp"
+                    android:layout_margin="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:drawingCacheQuality="high"
+                    android:theme="@style/AppTheme.Picker"
+                    android:visibility="visible"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/imageButton15"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:drawable/divider_horizontal_dark"
+                    android:foreground="@android:drawable/divider_horizontal_dark"
+                    android:scaleType="fitCenter"
+                    android:scrollbarThumbHorizontal="@android:drawable/divider_horizontal_dark"
+                    android:scrollbarThumbVertical="@android:drawable/divider_horizontal_dark"
+                    android:src="@drawable/aw"
+                    tools:src="@drawable/aw" />
+
+                <NumberPicker
+                    android:id="@+id/numberPicker15"
+                    android:layout_width="0dp"
+                    android:layout_height="46dp"
+                    android:layout_margin="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:drawingCacheQuality="high"
+                    android:theme="@style/AppTheme.Picker"
+                    android:visibility="visible"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+                <ImageButton
+                    android:id="@+id/imageButton16"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:drawable/divider_horizontal_dark"
+                    android:foreground="@android:drawable/divider_horizontal_dark"
+                    android:scaleType="fitCenter"
+                    android:scrollbarThumbHorizontal="@android:drawable/divider_horizontal_dark"
+                    android:scrollbarThumbVertical="@android:drawable/divider_horizontal_dark"
+                    android:src="@drawable/p1"
+                    tools:src="@drawable/p1" />
+
+                <NumberPicker
+                    android:id="@+id/numberPicker16"
+                    android:layout_width="0dp"
+                    android:layout_height="46dp"
+                    android:layout_margin="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:drawingCacheQuality="high"
+                    android:theme="@style/AppTheme.Picker"
+                    android:visibility="visible"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:layout_span="4"
+                    android:layout_weight="1"
+                    android:id="@+id/btnWipeAll"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|center_horizontal|center_vertical"
+                    android:insetLeft="0dp"
+                    android:text="@string/btn_wipe_all_tokens"
+                    android:textAlignment="center"
+                    android:textColor="@color/secondColorGreen"
+                    android:visibility="visible"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.497"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/imageView2"
+                    app:layout_constraintVertical_bias="0.946"
+                    app:strokeColor="@color/secondColorGreen"
+                    app:strokeWidth="2dp" />
+
+            </TableRow>
+
+
+        </TableLayout>
+
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">The eldrich horror card game helper</string>
+    <string name="title_home">Сhaos bag</string>
+    <string name="title_dashboard">Chaos Tokens</string>
+    <string name="btn_get_token">Get token</string>
+    <string name="btn_wipe_all_tokens">Reset All</string>
+</resources>

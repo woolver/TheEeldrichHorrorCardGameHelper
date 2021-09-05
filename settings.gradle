@@ -1,0 +1,2 @@
+rootProject.name = "The eldrich horror card game helper"
+include ':app'

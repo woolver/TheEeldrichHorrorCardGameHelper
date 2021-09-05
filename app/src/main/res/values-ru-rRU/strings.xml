@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Древний ужас Мешочек хаоса</string>
+    <string name="title_home">Мешок</string>
+    <string name="title_dashboard">Жетоны хаоса</string>
+    <string name="btn_get_token">Вытащить жетон</string>
+    <string name="btn_wipe_all_tokens">Сбросить</string>
+</resources>
