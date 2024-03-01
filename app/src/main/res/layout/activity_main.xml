@@ -41,19 +41,4 @@
         app:layout_constraintVertical_bias="1.0"
         app:navGraph="@navigation/mobile_navigation" />
 
-    <com.google.android.gms.ads.AdView
-        android:id="@+id/adView"
-        android:layout_width="320dp"
-        android:layout_height="50dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:visibility="visible"
-        app:adSize="BANNER"
-        app:adUnitId="ca-app-pub-7103639549346103/7793340593"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:visibility="visible"></com.google.android.gms.ads.AdView>
-
 </androidx.constraintlayout.widget.ConstraintLayout>

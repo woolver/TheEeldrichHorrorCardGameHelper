@@ -1,4 +1,4 @@
-package ru.lazydevelop.theeldrichhorrorcardgamehelper.ui.dashboard;
+package ru.lazydevelop.eldrichhorrorhelper.ui.dashboard;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -15,7 +15,7 @@ import androidx.lifecycle.ViewModelProvider;
 import java.util.HashMap;
 import java.util.Map;
 
-import ru.lazydevelop.theeldrichhorrorcardgamehelper.databinding.FragmentDashboardBinding;
+import ru.lazydevelop.eldrichhorrorhelper.databinding.FragmentDashboardBinding;
 
 public class DashboardFragment extends Fragment {
 

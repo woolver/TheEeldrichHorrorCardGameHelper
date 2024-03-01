@@ -1,4 +1,6 @@
-package ru.lazydevelop.theeldrichhorrorcardgamehelper.ui.home;
+package ru.lazydevelop.eldrichhorrorhelper.ui.home;
+
+
 
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
@@ -20,8 +22,10 @@ import java.util.List;
 import java.util.Map;
 import java.util.Random;
 
-import ru.lazydevelop.theeldrichhorrorcardgamehelper.R;
-import ru.lazydevelop.theeldrichhorrorcardgamehelper.databinding.FragmentHomeBinding;
+import ru.lazydevelop.eldrichhorrorhelper.databinding.FragmentHomeBinding;
+import ru.lazydevelop.eldrichhorrorhelper.R;
+import ru.lazydevelop.eldrichhorrorhelper.databinding.ActivityMainBinding;
+import ru.lazydevelop.eldrichhorrorhelper.databinding.FragmentDashboardBinding;
 
 public class HomeFragment extends Fragment {
 
@@ -52,7 +56,7 @@ public class HomeFragment extends Fragment {
                         lstTotal.add(e.getKey());
                 }
                 if(lstTotal.size()==0) return;
-                Collections.shuffle(lstTotal);
+                Collections.shuffle(lstTotal, new Random(lstTotal.size()));
                 binding.imageView.animate().translationX(0).translationY(0);
                 switch (lstTotal.get(rand.nextInt(lstTotal.size()))) {
                     case "p0": {

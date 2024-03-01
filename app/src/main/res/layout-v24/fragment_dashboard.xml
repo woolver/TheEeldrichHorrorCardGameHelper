@@ -569,6 +569,7 @@
                     android:insetLeft="0dp"
                     android:text="@string/btn_wipe_all_tokens"
                     android:textAlignment="center"
+                    android:backgroundTint="@color/black"
                     android:textColor="@color/secondColorGreen"
                     android:visibility="visible"
                     app:layout_constraintBottom_toBottomOf="parent"
