@@ -10,23 +10,16 @@ import android.widget.NumberPicker;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
-import androidx.lifecycle.ViewModelProvider;
-
-import java.util.HashMap;
-import java.util.Map;
 
 import ru.lazydevelop.eldrichhorrorhelper.databinding.FragmentDashboardBinding;
 
 public class DashboardFragment extends Fragment {
 
-    private DashboardViewModel dashboardViewModel;
     private FragmentDashboardBinding binding;
     private SharedPreferences mySharedPreferences;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        dashboardViewModel =
-                new ViewModelProvider(this).get(DashboardViewModel.class);
 
         binding = FragmentDashboardBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
@@ -98,34 +91,29 @@ public class DashboardFragment extends Fragment {
         np15.setValue(mySharedPreferences.getInt("aw",0));
         np16.setValue(mySharedPreferences.getInt("p1",0));
 
-        binding.btnWipeAll.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                np1.setValue(0);
-                np2.setValue(0);
-                np3.setValue(0);
-                np4.setValue(0);
-                np5.setValue(0);
-                np6.setValue(0);
-                np7.setValue(0);
-                np8.setValue(0);
-                np9.setValue(0);
-                np10.setValue(0);
-                np11.setValue(0);
-                np12.setValue(0);
-                np13.setValue(0);
-                np14.setValue(0);
-                np15.setValue(0);
-                np16.setValue(0);
-            }
+        binding.btnWipeAll.setOnClickListener(v -> {
+            np1.setValue(0);
+            np2.setValue(0);
+            np3.setValue(0);
+            np4.setValue(0);
+            np5.setValue(0);
+            np6.setValue(0);
+            np7.setValue(0);
+            np8.setValue(0);
+            np9.setValue(0);
+            np10.setValue(0);
+            np11.setValue(0);
+            np12.setValue(0);
+            np13.setValue(0);
+            np14.setValue(0);
+            np15.setValue(0);
+            np16.setValue(0);
         });
         return root;
     }
 
     @Override
     public void onDestroyView() {
-        Map<String, Integer> mas = new HashMap<>();
-        //mySharedPreferences.edit().clear().apply();
         mySharedPreferences.edit().putInt("p0",binding.numberPicker1.getValue()).apply();
         mySharedPreferences.edit().putInt("m1",binding.numberPicker2.getValue()).apply();
         mySharedPreferences.edit().putInt("m2",binding.numberPicker3.getValue()).apply();

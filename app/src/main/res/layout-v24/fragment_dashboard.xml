@@ -23,7 +23,7 @@
 
         <TableLayout
             android:id="@+id/tableLayout"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_width="match_parent"
             android:layout_marginStart="1dp"
             android:layout_marginTop="1dp"
@@ -42,6 +42,7 @@
                 android:layout_height="match_parent">
 
                 <ImageButton
+                    android:contentDescription="@string/coins"
                     android:id="@+id/imageButton1"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -59,9 +60,9 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_margin="8dp"
-                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
                     android:layout_marginTop="8dp"
-                    android:layout_marginEnd="8dp"
+
                     android:layout_marginRight="8dp"
                     android:layout_marginBottom="8dp"
                     android:backgroundTintMode="multiply"
@@ -74,6 +75,7 @@
                     app:layout_constraintTop_toBottomOf="@+id/textView" />
 
                 <ImageButton
+                    android:contentDescription="@string/coins"
                     android:id="@+id/imageButton2"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -92,7 +94,7 @@
                     android:layout_margin="8dp"
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="8dp"
-                    android:layout_marginEnd="8dp"
+
                     android:layout_marginBottom="8dp"
                     android:drawingCacheQuality="high"
                     android:theme="@style/AppTheme.Picker"
@@ -107,6 +109,7 @@
                 android:layout_height="match_parent">
 
                 <ImageButton
+                    android:contentDescription="@string/coins"
                     android:id="@+id/imageButton3"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -123,9 +126,9 @@
                     android:layout_width="0dp"
                     android:layout_height="46dp"
                     android:layout_margin="8dp"
-                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
                     android:layout_marginTop="8dp"
-                    android:layout_marginEnd="8dp"
+
                     android:layout_marginRight="8dp"
                     android:layout_marginBottom="8dp"
                     android:drawingCacheQuality="high"
@@ -136,6 +139,7 @@
                     app:layout_constraintTop_toBottomOf="@+id/textView" />
 
                 <ImageButton
+                    android:contentDescription="@string/coins"
                     android:id="@+id/imageButton4"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -152,9 +156,8 @@
                     android:layout_width="0dp"
                     android:layout_height="46dp"
                     android:layout_margin="8dp"
-                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
                     android:layout_marginTop="8dp"
-                    android:layout_marginEnd="8dp"
                     android:layout_marginRight="8dp"
                     android:layout_marginBottom="8dp"
                     android:drawingCacheQuality="high"
@@ -170,6 +173,7 @@
                 android:layout_height="match_parent">
 
                 <ImageButton
+                    android:contentDescription="@string/coins"
                     android:id="@+id/imageButton5"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -186,9 +190,8 @@
                     android:layout_width="0dp"
                     android:layout_height="46dp"
                     android:layout_margin="8dp"
-                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
                     android:layout_marginTop="8dp"
-                    android:layout_marginEnd="8dp"
                     android:layout_marginRight="8dp"
                     android:layout_marginBottom="8dp"
                     android:drawingCacheQuality="high"
@@ -199,6 +202,7 @@
                     app:layout_constraintTop_toBottomOf="@+id/textView" />
 
                 <ImageButton
+                    android:contentDescription="@string/coins"
                     android:id="@+id/imageButton6"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -215,9 +219,9 @@
                     android:layout_width="0dp"
                     android:layout_height="46dp"
                     android:layout_margin="8dp"
-                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
                     android:layout_marginTop="8dp"
-                    android:layout_marginEnd="8dp"
+
                     android:layout_marginRight="8dp"
                     android:layout_marginBottom="8dp"
                     android:drawingCacheQuality="high"
@@ -234,6 +238,7 @@
                 android:layout_height="match_parent">
 
                 <ImageButton
+                    android:contentDescription="@string/coins"
                     android:id="@+id/imageButton7"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -250,9 +255,9 @@
                     android:layout_width="0dp"
                     android:layout_height="46dp"
                     android:layout_margin="8dp"
-                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
                     android:layout_marginTop="8dp"
-                    android:layout_marginEnd="8dp"
+
                     android:layout_marginRight="8dp"
                     android:layout_marginBottom="8dp"
                     android:drawingCacheQuality="high"
@@ -263,6 +268,7 @@
                     app:layout_constraintTop_toBottomOf="@+id/textView" />
 
                 <ImageButton
+                    android:contentDescription="@string/coins"
                     android:id="@+id/imageButton8"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -279,9 +285,9 @@
                     android:layout_width="0dp"
                     android:layout_height="46dp"
                     android:layout_margin="8dp"
-                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
                     android:layout_marginTop="8dp"
-                    android:layout_marginEnd="8dp"
+
                     android:layout_marginRight="8dp"
                     android:layout_marginBottom="8dp"
                     android:drawingCacheQuality="high"
@@ -298,6 +304,7 @@
                 android:layout_height="match_parent">
 
                 <ImageButton
+                    android:contentDescription="@string/coins"
                     android:id="@+id/imageButton9"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -314,9 +321,9 @@
                     android:layout_width="0dp"
                     android:layout_height="46dp"
                     android:layout_margin="8dp"
-                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
                     android:layout_marginTop="8dp"
-                    android:layout_marginEnd="8dp"
+
                     android:layout_marginRight="8dp"
                     android:layout_marginBottom="8dp"
                     android:drawingCacheQuality="high"
@@ -327,6 +334,7 @@
                     app:layout_constraintTop_toBottomOf="@+id/textView" />
 
                 <ImageButton
+                    android:contentDescription="@string/coins"
                     android:id="@+id/imageButton10"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -343,9 +351,9 @@
                     android:layout_width="0dp"
                     android:layout_height="46dp"
                     android:layout_margin="8dp"
-                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
                     android:layout_marginTop="8dp"
-                    android:layout_marginEnd="8dp"
+
                     android:layout_marginRight="8dp"
                     android:layout_marginBottom="8dp"
                     android:drawingCacheQuality="high"
@@ -362,6 +370,7 @@
                 android:layout_height="match_parent">
 
                 <ImageButton
+                    android:contentDescription="@string/coins"
                     android:id="@+id/imageButton11"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -378,9 +387,9 @@
                     android:layout_width="0dp"
                     android:layout_height="46dp"
                     android:layout_margin="8dp"
-                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
                     android:layout_marginTop="8dp"
-                    android:layout_marginEnd="8dp"
+
                     android:layout_marginRight="8dp"
                     android:layout_marginBottom="8dp"
                     android:drawingCacheQuality="high"
@@ -391,6 +400,7 @@
                     app:layout_constraintTop_toBottomOf="@+id/textView" />
 
                 <ImageButton
+                    android:contentDescription="@string/coins"
                     android:id="@+id/imageButton12"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -407,9 +417,9 @@
                     android:layout_width="0dp"
                     android:layout_height="46dp"
                     android:layout_margin="8dp"
-                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
                     android:layout_marginTop="8dp"
-                    android:layout_marginEnd="8dp"
+
                     android:layout_marginRight="8dp"
                     android:layout_marginBottom="8dp"
                     android:drawingCacheQuality="high"
@@ -426,6 +436,7 @@
                 android:layout_height="match_parent">
 
                 <ImageButton
+                    android:contentDescription="@string/coins"
                     android:id="@+id/imageButton13"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -442,9 +453,9 @@
                     android:layout_width="0dp"
                     android:layout_height="46dp"
                     android:layout_margin="8dp"
-                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
                     android:layout_marginTop="8dp"
-                    android:layout_marginEnd="8dp"
+
                     android:layout_marginRight="8dp"
                     android:layout_marginBottom="8dp"
                     android:autoSizeMaxTextSize="100sp"
@@ -462,6 +473,7 @@
                     app:layout_constraintTop_toBottomOf="@+id/textView" />
 
                 <ImageButton
+                    android:contentDescription="@string/coins"
                     android:id="@+id/imageButton14"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -478,9 +490,9 @@
                     android:layout_width="0dp"
                     android:layout_height="46dp"
                     android:layout_margin="8dp"
-                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
                     android:layout_marginTop="8dp"
-                    android:layout_marginEnd="8dp"
+
                     android:layout_marginRight="8dp"
                     android:layout_marginBottom="8dp"
                     android:drawingCacheQuality="high"
@@ -497,6 +509,7 @@
                 android:layout_height="match_parent">
 
                 <ImageButton
+                    android:contentDescription="@string/coins"
                     android:id="@+id/imageButton15"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -513,9 +526,9 @@
                     android:layout_width="0dp"
                     android:layout_height="46dp"
                     android:layout_margin="8dp"
-                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
                     android:layout_marginTop="8dp"
-                    android:layout_marginEnd="8dp"
+
                     android:layout_marginRight="8dp"
                     android:layout_marginBottom="8dp"
                     android:drawingCacheQuality="high"
@@ -526,6 +539,7 @@
                     app:layout_constraintTop_toBottomOf="@+id/textView" />
 
                 <ImageButton
+                    android:contentDescription="@string/coins"
                     android:id="@+id/imageButton16"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -542,9 +556,9 @@
                     android:layout_width="0dp"
                     android:layout_height="46dp"
                     android:layout_margin="8dp"
-                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
                     android:layout_marginTop="8dp"
-                    android:layout_marginEnd="8dp"
+
                     android:layout_marginRight="8dp"
                     android:layout_marginBottom="8dp"
                     android:drawingCacheQuality="high"
@@ -560,17 +574,18 @@
                 android:layout_height="match_parent">
 
                 <Button
-                    android:layout_span="4"
-                    android:layout_weight="1"
                     android:id="@+id/btnWipeAll"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_span="4"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/black"
                     android:gravity="center|center_horizontal|center_vertical"
                     android:insetLeft="0dp"
                     android:text="@string/btn_wipe_all_tokens"
                     android:textAlignment="center"
-                    android:backgroundTint="@color/black"
                     android:textColor="@color/secondColorGreen"
+                    android:textSize="34sp"
                     android:visibility="visible"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
