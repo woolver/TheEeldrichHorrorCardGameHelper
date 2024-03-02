@@ -14,11 +14,11 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
+import java.security.SecureRandom;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Map;
-import java.util.Random;
 
 import ru.lazydevelop.eldrichhorrorhelper.databinding.FragmentHomeBinding;
 import ru.lazydevelop.eldrichhorrorhelper.R;
@@ -28,7 +28,6 @@ public class HomeFragment extends Fragment {
 
     private FragmentHomeBinding binding;
     SharedPreferences mySharedPreferences;
-    Random rand = new Random();
 
 
     public View onCreateView(@NonNull LayoutInflater inflater,
@@ -36,7 +35,6 @@ public class HomeFragment extends Fragment {
 
         binding = FragmentHomeBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
-
         mySharedPreferences = getActivity().getSharedPreferences("APP_PREFERENCES", Context.MODE_PRIVATE);
 
         binding.button.setOnClickListener(v -> {
@@ -48,9 +46,9 @@ public class HomeFragment extends Fragment {
                     lstTotal.add(e.getKey());
             }
             if(lstTotal.isEmpty()) return;
-            Collections.shuffle(lstTotal, new Random(lstTotal.size()));
+            Collections.shuffle(lstTotal, new SecureRandom());
             binding.imageView.animate().translationX(0).translationY(0);
-            switch (lstTotal.get(rand.nextInt(lstTotal.size()))) {
+            switch (lstTotal.get(new SecureRandom().nextInt(lstTotal.size()))) {
                 case "p0": {
                     binding.imageView.setImageResource(R.drawable.p0);
                     binding.imageView.setVisibility(View.VISIBLE);
