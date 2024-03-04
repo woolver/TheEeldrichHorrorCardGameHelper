@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="ru.lazydevelop.eldrichhorrorhelper.ui.home.HomeFragment"
+        android:name="ru.lazydevelop.theeldrichhorrorcardgamehelper.ui.home.HomeFragment"
         android:label="@string/title_home"
         tools:layout="@layout/fragment_home" >
         <action
@@ -17,7 +17,7 @@
 
     <fragment
         android:id="@+id/navigation_dashboard"
-        android:name="ru.lazydevelop.eldrichhorrorhelper.ui.dashboard.DashboardFragment"
+        android:name="ru.lazydevelop.theeldrichhorrorcardgamehelper.ui.dashboard.DashboardFragment"
         android:label="@string/title_dashboard"
         tools:layout="@layout/fragment_dashboard" >
         <action

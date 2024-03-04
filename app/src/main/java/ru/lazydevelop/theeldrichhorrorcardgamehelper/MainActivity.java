@@ -1,4 +1,4 @@
-package ru.lazydevelop.eldrichhorrorhelper;
+package ru.lazydevelop.theeldrichhorrorcardgamehelper;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -9,7 +9,10 @@ import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
-import ru.lazydevelop.eldrichhorrorhelper.databinding.ActivityMainBinding;
+
+
+import ru.lazydevelop.theeldrichhorrorcardgamehelper.databinding.ActivityMainBinding;
+
 
 
 public class MainActivity extends AppCompatActivity {

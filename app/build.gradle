@@ -3,16 +3,16 @@ plugins {
 }
 
 android {
-    namespace 'ru.lazydevelop.eldrichhorrorhelper'
+    namespace 'ru.lazydevelop.theeldrichhorrorcardgamehelper'
     compileSdk 34
 
 
     defaultConfig {
-        applicationId "ru.lazydevelop.eldrichhorrorhelper"
+        applicationId "ru.lazydevelop.theeldrichhorrorcardgamehelper"
         minSdk 19
         targetSdk 34
         versionCode 3
-        versionName "1.1"
+        versionName "1.2"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }

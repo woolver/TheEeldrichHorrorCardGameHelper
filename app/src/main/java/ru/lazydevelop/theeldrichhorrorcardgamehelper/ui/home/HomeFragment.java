@@ -1,4 +1,4 @@
-package ru.lazydevelop.eldrichhorrorhelper.ui.home;
+package ru.lazydevelop.theeldrichhorrorcardgamehelper.ui.home;
 
 
 
@@ -20,8 +20,11 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 
-import ru.lazydevelop.eldrichhorrorhelper.databinding.FragmentHomeBinding;
-import ru.lazydevelop.eldrichhorrorhelper.R;
+
+import ru.lazydevelop.theeldrichhorrorcardgamehelper.R;
+import ru.lazydevelop.theeldrichhorrorcardgamehelper.databinding.FragmentHomeBinding;
+
+
 
 public class HomeFragment extends Fragment {
 

@@ -1,4 +1,4 @@
-package ru.lazydevelop.eldrichhorrorhelper.ui.dashboard;
+package ru.lazydevelop.theeldrichhorrorcardgamehelper.ui.dashboard;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -11,7 +11,8 @@ import android.widget.NumberPicker;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
-import ru.lazydevelop.eldrichhorrorhelper.databinding.FragmentDashboardBinding;
+import ru.lazydevelop.theeldrichhorrorcardgamehelper.databinding.FragmentDashboardBinding;
+
 
 public class DashboardFragment extends Fragment {
 
